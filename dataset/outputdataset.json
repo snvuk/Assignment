@@ -1,0 +1,22 @@
+{
+	"name": "outputdataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobtransaction",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [
+			"AzureBlobStorage1"
+		],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "transaction.csv",
+				"folderPath": "input",
+				"container": "transaction"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

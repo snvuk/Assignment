@@ -1,0 +1,9 @@
+{
+	"name": "ADFtransaction",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "dd8f4fa2-1dee-4f41-9b7f-3abaab7b2106",
+		"tenantId": "d074e917-c8d9-42cc-8986-2cd1bdfbd079"
+	}
+}
